@@ -1,0 +1,29 @@
+{
+  "name": "all4sale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/tucaz/all4sale.git"
+  },
+  "author": "tucaz",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/tucaz/all4sale#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "js-yaml": "^3.6.1",
+    "lodash": "^4.13.1",
+    "numeral": "^1.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}

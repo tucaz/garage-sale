@@ -1,0 +1,10 @@
+extend layout
+
+block content
+    each row in rows
+        div.row
+            each product in row
+                div.col-xs-12.col-md-3
+                    img.img-responsive(src="/public/images/products/#{product.mainImage}")
+                    h3 #{product.name}
+                    h4 #{product.price}
